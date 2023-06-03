@@ -1,0 +1,61 @@
+@import url('https://fonts.cdnfonts.com/css/aok-buenos-aires');
+*{
+    font-family: 'AOK Buenos Aires', sans-serif;                      
+}
+/* porp base */
+header, .logo-texto, .cont-redes, .section-dos, .features, .section-uno, .cont-skills, .cont-features{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: rgb(217, 219, 221);
+    text-transform: uppercase;
+    font-size: 13px;
+}
+header{
+    background-color: rgb(25, 47, 92);
+    justify-content: space-around;
+    align-items: center;
+}
+section{
+    background-color: rgb(153, 81, 81);
+}
+footer{
+    background-color: burlywood;
+}
+img{
+    width: 200px;
+}
+/* clases */
+.section-uno{
+    background-color: rgb(133, 125, 125);
+}
+.section-dos{
+    background-color: rgb(0, 128, 90);
+}
+.skills{
+    background-color: rgb(37, 102, 223);
+}
+.about-me{
+    flex-direction: column;
+}
+.cont-skills{
+    background-color: red;
+    padding: 20px;
+    justify-content: space-around;
+}
+.conts-skills{
+    width: 150px;
+    height: 100px;
+    border: 1px solid black;
+    text-align: center;
+}
+.features{
+    flex-direction: column;
+}
+.conts-features{
+    margin: 20px;
+}
+.conts-features{
+    border: 1px solid black;
+}
