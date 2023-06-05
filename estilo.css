@@ -2,7 +2,7 @@
 *{
     font-family: 'AOK Buenos Aires', sans-serif;                      
 }
-/* porp base */
+/* prop base */
 header, .logo-texto, .cont-redes, .section-dos, .features, .section-uno, .cont-skills, .cont-features{
     display: flex;
 }
