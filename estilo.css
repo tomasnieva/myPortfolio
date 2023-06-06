@@ -46,21 +46,6 @@ a{
 
 
 
-
-/* clases */
-
-.look-my-proyect{
-    background-color: darkgrey;
-}
-.contact{
-    background-color: darkcyan;
-}
-
-
-
-
-
-
 /* clases section uno */
 .section-uno{
     background-color: rgb(133, 125, 125);
@@ -72,55 +57,55 @@ a{
     width: 90%;
     display: flex;
 }
-.section-uno .bienvenido{
+.bienvenido{
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: 600;
     margin-bottom: 1rem;
 }
-.section-uno .tomas-nieva{
+.tomas-nieva{
     font-size: 2.5rem;
     display: flex;
     flex-direction: row;
     text-transform: capitalize;
     margin-bottom: 1rem;
 }
-.section-uno .hola-soy{
+.hola-soy{
     color: rgb(255, 1, 79);
     margin-left: 1rem;   
 }
-.section-uno .texto-uno{
+.texto-uno{
     border: 1px solid black;
     flex-basis: 70%;
 }
-.section-uno .diseñador-web{
+.diseñador-web{
     font-size: 3rem;
     margin-bottom: 1rem;
 }
-.section-uno .texto-hero{
+.texto-hero{
     width: 60%;
     margin-bottom: 1rem;
 }
-.section-uno .boton-hero{
+.boton-hero{
     color: rgb(255, 1, 79);
     text-transform: uppercase;
     width: 11rem;
     height: 3rem;
     margin-bottom: 2.5rem;
 }
-.section-uno .encontrate-conmigo{
+.encontrate-conmigo{
     text-transform: uppercase;
     letter-spacing: 1.5px;
     margin-bottom: 1rem;
 }
-.section-uno .cont-redes{
+.cont-redes{
     display: flex;
     border: 1px solid black;
     justify-content: space-between;
     width: 15rem;
     padding: 5px;
 }
-.section-uno .div-redes{
+.div-redes{
     border: 1px solid black;
     width: 3rem;
     height: 3rem;
@@ -253,6 +238,9 @@ a{
 
 
 /* clases section look my project */
+.look-my-proyect{
+    background-color: darkgrey;
+}
 .cont-look{
     align-items: center;
     margin: 0 auto;
@@ -330,6 +318,56 @@ a{
 
 .itemCarrouselArrows > a > i{
     color: white;
+}
+
+
+
+
+
+
+
+
+/* clases contact */
+.contact{
+    background-color: darkcyan;
+}
+.contDos-contact{
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+}
+.contacto{
+    color: rgb(255, 1, 79);
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    padding-top: 4rem;
+}
+.contactate-conmigo{
+    font-size: 4rem;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+.cont-contact{
+    display: flex;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer, .footer-links{
+    display: flex;
 }
 
 
