@@ -147,7 +147,6 @@ a{
     color: rgb(255, 1, 79);
     font-size: 1rem;
     text-transform: uppercase;
-    letter-spacing: 2px;
     font-weight: 600;
     margin-bottom: 1rem;
 }
@@ -198,9 +197,9 @@ a{
     color: rgb(255, 1, 79);
     font-size: 1rem;
     text-transform: uppercase;
-    letter-spacing: 2px;
     font-weight: 600;
     margin-bottom: 1rem;
+    padding-top: 8rem;
 }
 .mis-skills{
     font-size: 4rem;
@@ -229,20 +228,48 @@ a{
     color: rgb(255, 1, 79);
     font-size: 1rem;
     text-transform: uppercase;
-    letter-spacing: 2px;
     font-weight: 600;
     margin-bottom: 1rem;
+    padding-top: 4rem;
 }
 .hago-yo{
     font-size: 4rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 .cont-features{
-    border: 1px solid black;
+    justify-content: space-around;
 }
 .conts-features{
     border: 1px solid black;
 }
+.texto-features{
+    padding-bottom: 1rem;
+}
+
+
+
+
+
+
+/* clases section look my project */
+.cont-look{
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+}
+.mira-miproyecto{
+    color: rgb(255, 1, 79);
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    padding-top: 4rem;
+}
+.mi-mejortp{
+    font-size: 4rem;
+    padding-bottom: 3rem;
+}
+
 
 
 
