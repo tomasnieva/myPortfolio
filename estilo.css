@@ -47,20 +47,6 @@ a{
 
 
 /* clases */
-.skills{
-    background-color: rgb(37, 102, 223);
-}
-.cont-skills{
-    background-color: red;
-    padding: 20px;
-    justify-content: space-around;
-}
-.conts-skills{
-    width: 150px;
-    height: 100px;
-    border: 1px solid black;
-    text-align: center;
-}
 .features{
     background-color: aquamarine;
     flex-direction: column;
@@ -147,7 +133,7 @@ a{
 
 /* clases section dos */
 .section-dos{
-background-color: rgb(0, 128, 90);
+    background-color: rgb(161, 209, 195);
 }
 .cont-section-dos{   
     align-items: center;
@@ -158,6 +144,7 @@ background-color: rgb(0, 128, 90);
 .about-me{
     flex-direction: column;
     border: 1px solid black;
+    flex-basis: 70%;
 }
 .visita-portfolio{
     color: rgb(255, 1, 79);
@@ -174,8 +161,57 @@ background-color: rgb(0, 128, 90);
 }
 .texto-about{
     margin-bottom: 1rem;
-    width: 70%;
 }
+.boton-about{
+    color: rgb(255, 1, 79);
+    text-transform: uppercase;
+    width: 11rem;
+    height: 3rem;
+    margin-bottom: 2.5rem;
+}
+
+
+
+
+
+
+
+/* clases section skills */
+.skills{
+    background-color: rgb(153, 179, 226);
+}
+.cont-skills{
+    padding: 20px;
+    justify-content: space-around;
+}
+.conts-skills{
+    width: 150px;
+    height: 100px;
+    border: 1px solid black;
+    text-align: center;
+}
+.contDos-skills{
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 85%;
+}
+.texto-skills{
+    color: rgb(255, 1, 79);
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.texto-skills-dos{
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+
+
+
 
 
 /* clases imagenes */
