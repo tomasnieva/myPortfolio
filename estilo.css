@@ -47,10 +47,7 @@ a{
 
 
 /* clases */
-.features{
-    background-color: aquamarine;
-    flex-direction: column;
-}
+
 .look-my-proyect{
     background-color: darkgrey;
 }
@@ -135,18 +132,18 @@ a{
 .section-dos{
     background-color: rgb(161, 209, 195);
 }
-.cont-section-dos{   
+.section-dos .cont-section-dos{   
     align-items: center;
     margin: 0 auto;
     width: 90%;
     display: flex;
 }
-.about-me{
+.section-dos .about-me{
     flex-direction: column;
     border: 1px solid black;
     flex-basis: 70%;
 }
-.visita-portfolio{
+.section-dos .visita-portfolio{
     color: rgb(255, 1, 79);
     font-size: 1rem;
     text-transform: uppercase;
@@ -154,21 +151,22 @@ a{
     font-weight: 600;
     margin-bottom: 1rem;
 }
-.sobre-mi{
+.section-dos .sobre-mi{
     font-size: 4rem;
     text-transform: capitalize;
     margin-bottom: 1rem;
 }
-.texto-about{
+.section-dos .texto-about{
     margin-bottom: 1rem;
 }
-.boton-about{
+.section-dos .boton-about{
     color: rgb(255, 1, 79);
     text-transform: uppercase;
     width: 11rem;
     height: 3rem;
     margin-bottom: 2.5rem;
 }
+
 
 
 
@@ -196,7 +194,7 @@ a{
     margin: 0 auto;
     width: 85%;
 }
-.texto-skills{
+.visita-skills{
     color: rgb(255, 1, 79);
     font-size: 1rem;
     text-transform: uppercase;
@@ -204,10 +202,46 @@ a{
     font-weight: 600;
     margin-bottom: 1rem;
 }
-.texto-skills-dos{
-    font-size: 2rem;
+.mis-skills{
+    font-size: 4rem;
     text-transform: capitalize;
     margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+/* clases section features */
+.features{
+    background-color: rgb(147, 132, 233);
+    flex-direction: column;
+}
+.contDos-features{
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+}
+.caracteristicas{
+    color: rgb(255, 1, 79);
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.hago-yo{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+.cont-features{
+    border: 1px solid black;
+}
+.conts-features{
+    border: 1px solid black;
 }
 
 
