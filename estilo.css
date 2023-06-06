@@ -20,7 +20,7 @@ a{
     font-size: 13px;
 }
 header{
-    background-color: rgb(25, 47, 92);
+    background-color: rgb(6, 0, 1);
     justify-content: space-around;
     align-items: center;
     height: 15vh;
@@ -37,7 +37,6 @@ img{
 
 
 
-
 /* limpieza */
 a{
     text-decoration: none;
@@ -47,8 +46,37 @@ a{
 
 
 /* clases section uno */
+a{
+    margin-left: 2rem;
+}
+.buy-now{
+    border-radius: 0.5rem;
+    width: 9rem;
+    height: 4rem;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgb(255, 1, 79);
+}
 .section-uno{
     background-color: rgb(133, 125, 125);
+    background-image: url("img/tomi.png");
+    background-position: 40rem;
+    background-size: 680px;
+    background-repeat: no-repeat;
+}
+.img-tomy{
+    border-radius: 3rem;
+    width: 60px;
+    height: 60px;
+}
+.logo-texto{
+    align-items: center;
+}
+.tomy{
+    color: rgb(217, 219, 221);
+    font-size: 1.5rem;
+    padding-left: 0.5rem;
+    font-weight: 500;
 }
 .cont-section-uno{   
     height: 85vh;
@@ -75,8 +103,8 @@ a{
     margin-left: 1rem;   
 }
 .texto-uno{
-    border: 1px solid black;
     flex-basis: 70%;
+    color: rgb(255, 255, 255);
 }
 .diseñador-web{
     font-size: 3rem;
@@ -89,9 +117,12 @@ a{
 .boton-hero{
     color: rgb(255, 1, 79);
     text-transform: uppercase;
-    width: 11rem;
+    width: 12rem;
     height: 3rem;
     margin-bottom: 2.5rem;
+    border-radius: 0.5rem;
+    background-color: rgb(33, 36, 40);
+    border: none;
 }
 .encontrate-conmigo{
     text-transform: uppercase;
@@ -102,13 +133,15 @@ a{
     display: flex;
     border: 1px solid black;
     justify-content: space-between;
-    width: 15rem;
+    width: 14rem;
     padding: 5px;
 }
 .div-redes{
+    border-radius: 0.5rem;
     border: 1px solid black;
     width: 3rem;
     height: 3rem;
+    background-color: rgb(33, 36, 40);
 }
 
 
@@ -116,7 +149,16 @@ a{
 
 /* clases section dos */
 .section-dos{
-    background-color: rgb(161, 209, 195);
+    background-color: rgb(48, 36, 36);
+    height: 110vh;
+    color: rgb(195, 206, 221);
+}
+.imagen-dos{
+    border-radius: 0.8rem;
+    height: 40rem;
+}
+.tomidos-img{
+    width: 30rem;
 }
 .section-dos .cont-section-dos{   
     align-items: center;
@@ -126,8 +168,9 @@ a{
 }
 .section-dos .about-me{
     flex-direction: column;
-    border: 1px solid black;
+    border: 1px solid rgb(179, 34, 34);
     flex-basis: 70%;
+    padding-left: 4rem;
 }
 .section-dos .visita-portfolio{
     color: rgb(255, 1, 79);
@@ -144,12 +187,15 @@ a{
 .section-dos .texto-about{
     margin-bottom: 1rem;
 }
-.section-dos .boton-about{
+.boton-about{
     color: rgb(255, 1, 79);
     text-transform: uppercase;
-    width: 11rem;
+    width: 12rem;
     height: 3rem;
     margin-bottom: 2.5rem;
+    border-radius: 0.5rem;
+    background-color: rgb(33, 36, 40);
+    border: none;
 }
 
 
@@ -162,16 +208,24 @@ a{
 /* clases section skills */
 .skills{
     background-color: rgb(153, 179, 226);
+    border-top: 1px solid rgb(196, 207, 223);
 }
 .cont-skills{
     padding: 20px;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+.cont-skills-dos{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
 }
 .conts-skills{
-    width: 150px;
-    height: 100px;
+    width: 250px;
     border: 1px solid black;
     text-align: center;
+    padding: 20px;
+    border-radius: 0.5rem;
+    background-color: rgb(5, 2, 2);
 }
 .contDos-skills{
     text-align: center;
@@ -204,6 +258,7 @@ a{
 .features{
     background-color: rgb(147, 132, 233);
     flex-direction: column;
+    height: 100vh;
 }
 .contDos-features{
     align-items: center;
@@ -227,9 +282,17 @@ a{
 }
 .conts-features{
     border: 1px solid black;
+    height: 18rem;
+    padding: 3rem;
+    width: 22rem;
+    border-radius: 0.5rem;
 }
 .texto-features{
     padding-bottom: 1rem;
+}
+.icono{
+    width: 1.8rem;
+    padding-bottom: 2rem;
 }
 
 
